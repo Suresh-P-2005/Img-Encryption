@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Encryption & Decryption</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 50px;
+    }
+    #preview, #decryptedImage {
+      max-width: 300px;
+      margin-top: 20px;
+    }
+    textarea {
+      width: 100%;
+      height: 100px;
+      margin-top: 10px;
+    }
+    body {
+
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(45deg, #283048, #859398);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: white;
+      padding-top: 300px;
+      padding-bottom: 300px;
+      margin-top: 100px; 
+      margin-bottom: 100px;
+      animation: gradientAnimation 10s infinite alternate;
+
+    }
+    #preview, #decryptedImage {
+      max-width: 300px;
+      margin-top: 20px;
+    }
+    .logo {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      width: 50px;
+      height: 50px;
+      border-radius: 10px;
+    }
+    @keyframes gradientAnimation {
+      0% { background: linear-gradient(135deg,#5b585b, #36aeda); }
+      100% { background: linear-gradient(135deg, #3f99a3, #b75fd9); }
+    }
+
+    .container {
+      background: rgba(1, 1, 1, 0);
+      backdrop-filter: blur(10px);
+      padding: 50px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      width: 400px;
+      
+    }
+
+    h2 {
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    textarea::placeholder, input::placeholder {
+      color: white;
+    }
+    textarea, input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: none;
+      font-size: 16px;
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+      outline: none;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .encrypt { background: #ff4b5c; }
+    .decrypt { background: #00c896; }
+    .reset { background: #005bea; }
+    .copy { background: #ffb400; }
+    
+
+    button:hover {
+      transform: scale(1.05);
+    }
+
+    .error {
+      color: red;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    .success {
+      color: #00ff88;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+  <h2>🔒 Secure Image Encryption & Decryption</h2>
+  <input type="file" id="imageInput" accept="image/*" />
+  <input type="password" id="password" placeholder="Enter secret key" />
+  <button class="encrypt" onclick="encryptImage()">🔐<b> Encrypt</b> </button>
+  <button class="decrypt" onclick="decryptImage()">🔓 <b>Decrypt</b> </button>
+  <button class="copy" onclick="copyEncryptedText()">📋<b>Copy</b> </button>
+  <button class="reset" onclick="resetFields()">🔄 <b>Reset</b></button>
+  <p>Encrypted Text:</p>
+  <textarea id="encryptedOutput" readonly></textarea>
+  <p>Paste Encrypted Text to Decrypt:</p>
+  <textarea id="encryptedInput"></textarea>
+  <img id="preview" />
+  <img id="decryptedImage" />
+  </div>
+  <script>
+  app.use(cors({ origin: 'http://your-frontend-domain.com' }));
+ 
+
+  async function encryptImage() {
+  const file = document.getElementById("imageInput").files[0];
+  const password = document.getElementById("password").value;
+  if (!file || !password) {
+    alert("❗❗ Please select an image and enter a password. ❗❗");
+    return;
+  }
+
+  const formData = new FormData();
+  formData.append("file", file);
+  formData.append("password", password);
+
+  try {
+    const response = await fetch("http://localhost:3000/encrypt", {
+      method: "POST",
+      body: formData,
+    });
+    const data = await response.json();
+    if (data.encryptedText) {
+      document.getElementById("encryptedOutput").value = data.encryptedText;
+    } else {
+      alert("Encryption failed!");
+    }
+  } catch (error) {
+    alert("Encryption failed!");
+  }
+}
+
+async function decryptImage() {
+    const password = document.getElementById("password").value;
+    const encryptedData = document.getElementById("encryptedInput").value;
+
+    if (!encryptedData || !password) {
+        alert("❗❗ Please enter encrypted text and password. ❗❗");
+        return;
+    }
+
+    console.log("\n🔹 Sending Decryption Request...");
+    console.log("📩 Encrypted Text:", encryptedData);
+    console.log("🔑 Entered Password:", password);
+
+    try {
+        const response = await fetch("http://localhost:3000/decrypt", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ encryptedText: encryptedData, password }),
+        });
+
+        const data = await response.json();
+        console.log("📨 Server Response:", data);
+
+        if (data.imageBase64) {
+            console.log("✅ Decryption Successful!");
+            document.getElementById("decryptedImage").src = data.imageBase64;
+        } else {
+            alert("❌ Decryption failed: " + (data.error || "Unknown error"));
+        }
+    } catch (error) {
+        alert("❌ Decryption failed! Check console for details.");
+        console.error("❌ Decryption error:", error);
+    }
+}
+
+
+
+
+    function copyEncryptedText() {
+      const encryptedText = document.getElementById('encryptedOutput');
+      if (!encryptedText.value) {
+        alert("⚠️ Nothing to copy!⚠️");
+        return;
+      }
+      encryptedText.select();
+      document.execCommand("copy");
+      alert("Copied to clipboard❗");
+    }
+
+    function resetFields() {
+      document.getElementById('imageInput').value = "";
+      document.getElementById('password').value = "";
+      document.getElementById('encryptedOutput').value = "";
+      document.getElementById('encryptedInput').value = "";
+      document.getElementById('preview').src = "";
+      document.getElementById('decryptedImage').src = "";
+    }
+  </script>
+</body>
+</html>
