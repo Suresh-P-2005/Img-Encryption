@@ -47,11 +47,11 @@
 <br>
 
 <div align="center">
-  ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-  ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-  ![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white)
-  ![LM Studio](https://img.shields.io/badge/LM_Studio-6C5CE7?style=for-the-badge&logo=ai&logoColor=white)
-  ![Web Speech API](https://img.shields.io/badge/Web_Speech_API-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
+  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras" />
+  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-learn" />
+  <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white" alt="MediaPipe" />
+  <img src="https://img.shields.io/badge/LM_Studio-6C5CE7?style=for-the-badge&logo=ai&logoColor=white" alt="LM Studio" />
+  <img src="https://img.shields.io/badge/Web_Speech_API-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Web Speech API" />
 </div>
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="Bar Chart" width="35" height="35" /> GitHub Stats
@@ -121,19 +121,14 @@
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="35" height="35" /> Featured Projects
 
 <div align="center">
-  <a href="https://github.com/Suresh-P-2005/ISL">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=Suresh-P-2005&repo=ISL&theme=tokyonight" width="48%" />
-  </a>
-  <a href="https://github.com/Suresh-P-2005/Automatic_Number_Plate_Recognition">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=Suresh-P-2005&repo=Automatic_Number_Plate_Recognition&theme=tokyonight" width="48%" />
-  </a>
-  <br>
-  <a href="https://github.com/Suresh-P-2005/Gourmet_AI">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=Suresh-P-2005&repo=Gourmet_AI&theme=tokyonight" width="48%" />
-  </a>
-  <a href="https://github.com/Suresh-P-2005/Real-Time-PPE-Detection-System">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=Suresh-P-2005&repo=Real-Time-PPE-Detection-System&theme=tokyonight" width="48%" />
-  </a>
+
+| Project | Highlights & Details |
+| :---: | :--- |
+| <a href="https://github.com/Suresh-P-2005/ISL"><img src="https://github-stats-extended.vercel.app/api/pin/?username=Suresh-P-2005&repo=ISL&theme=tokyonight" width="400" /></a> | Published at **ICETEMA-2K26**<br><br>• Hardware-free ISL system extracting 126 3D coordinates<br>• **95.8%** static sign accuracy via hybrid Random Forest + CNN fallback<br>• 3-layer BiLSTM for dynamic signs<br>• Offline grammar correction with local Phi-3 LLM<br>• Text-to-speech in **11 languages** |
+| <a href="https://github.com/Suresh-P-2005/Automatic_Number_Plate_Recognition"><img src="https://github-stats-extended.vercel.app/api/pin/?username=Suresh-P-2005&repo=Automatic_Number_Plate_Recognition&theme=tokyonight" width="400" /></a> | • Real-time vehicle detection<br>• License plate extraction using OCR<br>• High-accuracy detection in dynamic environments |
+| <a href="https://github.com/Suresh-P-2005/Gourmet_AI"><img src="https://github-stats-extended.vercel.app/api/pin/?username=Suresh-P-2005&repo=Gourmet_AI&theme=tokyonight" width="400" /></a> | • AI-powered recipe generation<br>• Camera ingredient detection<br>• Voice input using Web Speech API<br>• Premium Glassmorphism UI |
+| <a href="https://github.com/Suresh-P-2005/Real-Time-PPE-Detection-System"><img src="https://github-stats-extended.vercel.app/api/pin/?username=Suresh-P-2005&repo=Real-Time-PPE-Detection-System&theme=tokyonight" width="400" /></a> | • Real-time multi-input inference<br>• Identifies missing Personal Protective Equipment (PPE)<br>• High-performance pipeline with FP16 tensor inference<br>• Interactive HUD |
+
 </div>
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Sports%20Medal.png" alt="Sports Medal" width="35" height="35" /> Achievements
