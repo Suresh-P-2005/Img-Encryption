@@ -128,17 +128,7 @@
 
 </details>
 
-<details>
-<summary><b>Mobile App Dev Intern @ Hicup Innovations</b> — May 2025 – June 2025</summary>
-<br>
 
-> `Flutter` `Firebase` `Mobile Development`
-
-- Developed Flutter frontend interfaces for cross-platform mobile applications
-- Integrated Firebase for real-time database management
-- Worked across the app lifecycle from UI design to backend connectivity
-
-</details>
 
 ## 🚀 Featured Projects
 
