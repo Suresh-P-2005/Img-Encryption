@@ -80,7 +80,20 @@
 
 <div align="center">
 
+<!--
+  NOTE: The github-profile-trophy service (and its community mirrors) is currently
+  unreliable — the maintainer has flagged funding/server-cost issues, so the main
+  domain and several mirrors are returning errors (402/400/404) intermittently.
+  Once the service stabilizes, you can re-add a trophy image like this:
 
+  ![Trophies](https://github-profile-trophy.vercel.app/?username=Suresh-P-2005&theme=tokyonight&row=1&column=7&margin-w=4)
+
+  Alternative mirrors to try (swap the domain only):
+  - https://github-profile-trophy-tawny.vercel.app
+  - https://trophy.ryglcloud.net
+  - https://gh-trophy.cdnsoft.net
+  - https://trophygh.kolioaris.xyz
+-->
 
 ![NPTEL Certification](https://img.shields.io/badge/NPTEL-Cloud_Computing_Elite-70A5FD?style=flat-square&logo=nptel&logoColor=white)
 ![Research Publication](https://img.shields.io/badge/Published-JUCCT-BF91F3?style=flat-square&logo=googlescholar&logoColor=white)
@@ -88,8 +101,7 @@
 </div>
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" alt="Briefcase" width="35" height="35" /> Work Experience
-### AI/ML Intern @ HCLTech 
-*Jun 2026 – Present (3 Months)*
+<details> <summary><b>AI/ML Intern @ HCLTech</b> — 8th Jun 2026 – 8th Sep 2026 (3 Months)</summary> <br>
 
 > `Python` `Computer Vision` `Deep Learning` `FastAPI`  
 
@@ -97,9 +109,10 @@
 - Building and optimizing deep learning models for vision-based systems
 - Developing scalable FastAPI-based AI services for deployment
 - Improving inference performance and model accuracy for production systems
-
-### Python Intern @ Entudio Pvt. Ltd 
-*Jul 2025 – Aug 2025*
+</details>
+<details>
+<summary><b>Python Intern @ Entudio Pvt. Ltd</b> — Jul 2025 (1 Month)</summary>
+<br>
 
 > `Python` `Flask` `REST APIs` `JSON`
 
@@ -107,50 +120,20 @@
 - Built Flask REST APIs to automate JSON data exchange, reducing manual handling time by **40%**
 - Collaborated on backend module design for cleaner, more maintainable data pipelines
 
+</details>
+
 
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="35" height="35" /> Featured Projects
 
 <div align="center">
 
-### [Sign Language Translator (ISL)](https://github.com/Suresh-P-2005/ISL)
-<a href="https://github.com/Suresh-P-2005/ISL"><img src="https://github-stats-extended.vercel.app/api/pin/?username=Suresh-P-2005&repo=ISL&theme=tokyonight" width="400" /></a>
-
-Published in **Journal of Ubiquitous Computing and Communication Technologies**<br>
-• Hardware-free ISL system extracting 126 3D coordinates<br>
-• **95.8%** static sign accuracy via hybrid Random Forest + CNN fallback<br>
-• 3-layer BiLSTM for dynamic signs<br>
-• Offline grammar correction with local Phi-3 LLM<br>
-• Text-to-speech in **11 languages**
-
-<br>
-
-### [Automatic Number Plate Recognition](https://github.com/Suresh-P-2005/Automatic_Number_Plate_Recognition)
-<a href="https://github.com/Suresh-P-2005/Automatic_Number_Plate_Recognition"><img src="https://github-stats-extended.vercel.app/api/pin/?username=Suresh-P-2005&repo=Automatic_Number_Plate_Recognition&theme=tokyonight" width="400" /></a>
-
-• Real-time vehicle detection<br>
-• License plate extraction using OCR<br>
-• High-accuracy detection in dynamic environments
-
-<br>
-
-### [Gourmet AI](https://github.com/Suresh-P-2005/Gourmet_AI)
-<a href="https://github.com/Suresh-P-2005/Gourmet_AI"><img src="https://github-stats-extended.vercel.app/api/pin/?username=Suresh-P-2005&repo=Gourmet_AI&theme=tokyonight" width="400" /></a>
-
-• AI-powered recipe generation<br>
-• Camera ingredient detection<br>
-• Voice input using Web Speech API<br>
-• Premium Glassmorphism UI
-
-<br>
-
-### [Real-Time PPE Detection System](https://github.com/Suresh-P-2005/Real-Time-PPE-Detection-System)
-<a href="https://github.com/Suresh-P-2005/Real-Time-PPE-Detection-System"><img src="https://github-stats-extended.vercel.app/api/pin/?username=Suresh-P-2005&repo=Real-Time-PPE-Detection-System&theme=tokyonight" width="400" /></a>
-
-• Real-time multi-input inference<br>
-• Identifies missing Personal Protective Equipment (PPE)<br>
-• High-performance pipeline with FP16 tensor inference<br>
-• Interactive HUD
+| Project | Highlights & Details |
+| :---: | :--- |
+| <a href="https://github.com/Suresh-P-2005/ISL"><img src="https://github-stats-extended.vercel.app/api/pin/?username=Suresh-P-2005&repo=ISL&theme=tokyonight" width="400" /></a> | Published in **Journal of Ubiquitous Computing and Communication Technologies**<br><br>• Hardware-free ISL system extracting 126 3D coordinates<br>• **95.8%** static sign accuracy via hybrid Random Forest + CNN fallback<br>• 3-layer BiLSTM for dynamic signs<br>• Offline grammar correction with local Phi-3 LLM<br>• Text-to-speech in **11 languages** |
+| <a href="https://github.com/Suresh-P-2005/Automatic_Number_Plate_Recognition"><img src="https://github-stats-extended.vercel.app/api/pin/?username=Suresh-P-2005&repo=Automatic_Number_Plate_Recognition&theme=tokyonight" width="400" /></a> | • Real-time vehicle detection<br>• License plate extraction using OCR<br>• High-accuracy detection in dynamic environments |
+| <a href="https://github.com/Suresh-P-2005/Gourmet_AI"><img src="https://github-stats-extended.vercel.app/api/pin/?username=Suresh-P-2005&repo=Gourmet_AI&theme=tokyonight" width="400" /></a> | • AI-powered recipe generation<br>• Camera ingredient detection<br>• Voice input using Web Speech API<br>• Premium Glassmorphism UI |
+| <a href="https://github.com/Suresh-P-2005/Real-Time-PPE-Detection-System"><img src="https://github-stats-extended.vercel.app/api/pin/?username=Suresh-P-2005&repo=Real-Time-PPE-Detection-System&theme=tokyonight" width="400" /></a> | • Real-time multi-input inference<br>• Identifies missing Personal Protective Equipment (PPE)<br>• High-performance pipeline with FP16 tensor inference<br>• Interactive HUD |
 
 </div>
 
@@ -179,9 +162,11 @@ Published in **Journal of Ubiquitous Computing and Communication Technologies**<
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" alt="Books" width="35" height="35" /> Currently Learning
 
-- 🧠 **Advanced Deep Learning** - ![Transformers](https://img.shields.io/badge/-Transformers-orange?style=flat-square) ![Optimization](https://img.shields.io/badge/-Optimization-blue?style=flat-square)
-- ☁️ **MLOps & Cloud** - ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![CI/CD](https://img.shields.io/badge/-CI/CD-4CAF50?style=flat-square) ![Model Deployment](https://img.shields.io/badge/-Model_Deployment-8A2BE2?style=flat-square)
-- 🚀 **Real-Time AI** - ![Scalable Vision Systems](https://img.shields.io/badge/-Scalable_Vision_Systems-red?style=flat-square)
+```text
+🧠 Advanced Deep Learning → Transformers, Optimization
+☁️ MLOps & Cloud          → Docker, CI/CD, Model Deployment
+🚀 Real-Time AI           → Scalable Vision Systems
+```
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Postbox.png" alt="Postbox" width="35" height="35" /> Connect with Me
 
