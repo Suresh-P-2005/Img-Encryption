@@ -90,7 +90,7 @@
 -->
 
 ![NPTEL Certification](https://img.shields.io/badge/NPTEL-Cloud_Computing_Elite-70A5FD?style=flat-square&logo=nptel&logoColor=white)
-![Research Publication](https://img.shields.io/badge/Published-ICETEMA--2K26-BF91F3?style=flat-square&logo=googlescholar&logoColor=white)
+![Research Publication](https://img.shields.io/badge/Published-JUCCT-BF91F3?style=flat-square&logo=googlescholar&logoColor=white)
 
 </div>
 
@@ -124,7 +124,7 @@
 
 | Project | Highlights & Details |
 | :---: | :--- |
-| <a href="https://github.com/Suresh-P-2005/ISL"><img src="https://github-stats-extended.vercel.app/api/pin/?username=Suresh-P-2005&repo=ISL&theme=tokyonight" width="400" /></a> | Published at **ICETEMA-2K26**<br><br>• Hardware-free ISL system extracting 126 3D coordinates<br>• **95.8%** static sign accuracy via hybrid Random Forest + CNN fallback<br>• 3-layer BiLSTM for dynamic signs<br>• Offline grammar correction with local Phi-3 LLM<br>• Text-to-speech in **11 languages** |
+| <a href="https://github.com/Suresh-P-2005/ISL"><img src="https://github-stats-extended.vercel.app/api/pin/?username=Suresh-P-2005&repo=ISL&theme=tokyonight" width="400" /></a> | Published in **Journal of Ubiquitous Computing and Communication Technologies**<br><br>• Hardware-free ISL system extracting 126 3D coordinates<br>• **95.8%** static sign accuracy via hybrid Random Forest + CNN fallback<br>• 3-layer BiLSTM for dynamic signs<br>• Offline grammar correction with local Phi-3 LLM<br>• Text-to-speech in **11 languages** |
 | <a href="https://github.com/Suresh-P-2005/Automatic_Number_Plate_Recognition"><img src="https://github-stats-extended.vercel.app/api/pin/?username=Suresh-P-2005&repo=Automatic_Number_Plate_Recognition&theme=tokyonight" width="400" /></a> | • Real-time vehicle detection<br>• License plate extraction using OCR<br>• High-accuracy detection in dynamic environments |
 | <a href="https://github.com/Suresh-P-2005/Gourmet_AI"><img src="https://github-stats-extended.vercel.app/api/pin/?username=Suresh-P-2005&repo=Gourmet_AI&theme=tokyonight" width="400" /></a> | • AI-powered recipe generation<br>• Camera ingredient detection<br>• Voice input using Web Speech API<br>• Premium Glassmorphism UI |
 | <a href="https://github.com/Suresh-P-2005/Real-Time-PPE-Detection-System"><img src="https://github-stats-extended.vercel.app/api/pin/?username=Suresh-P-2005&repo=Real-Time-PPE-Detection-System&theme=tokyonight" width="400" /></a> | • Real-time multi-input inference<br>• Identifies missing Personal Protective Equipment (PPE)<br>• High-performance pipeline with FP16 tensor inference<br>• Interactive HUD |
@@ -138,7 +138,7 @@
 | 🏆 | Achievement | Details |
 |---|---|---|
 | 🎓 | **NPTEL Cloud Computing — Elite Certificate** | IIT Kharagpur • Scored **75%** |
-| 📄 | **Research Publication** | Indian Sign Language Recognition system published at **ICETEMA-2K26** |
+| 📄 | **Research Publication** | Indian Sign Language Recognition system published in **Journal of Ubiquitous Computing and Communication Technologies** |
 
 </div>
 
