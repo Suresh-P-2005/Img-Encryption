@@ -162,11 +162,9 @@
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" alt="Books" width="35" height="35" /> Currently Learning
 
-```text
-🧠 Advanced Deep Learning → Transformers, Optimization
-☁️ MLOps & Cloud          → Docker, CI/CD, Model Deployment
-🚀 Real-Time AI           → Scalable Vision Systems
-```
+- 🧠 **Advanced Deep Learning** - ![Transformers](https://img.shields.io/badge/-Transformers-orange?style=flat-square) ![Optimization](https://img.shields.io/badge/-Optimization-blue?style=flat-square)
+- ☁️ **MLOps & Cloud** - ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![CI/CD](https://img.shields.io/badge/-CI/CD-4CAF50?style=flat-square) ![Model Deployment](https://img.shields.io/badge/-Model_Deployment-8A2BE2?style=flat-square)
+- 🚀 **Real-Time AI** - ![Scalable Vision Systems](https://img.shields.io/badge/-Scalable_Vision_Systems-red?style=flat-square)
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Postbox.png" alt="Postbox" width="35" height="35" /> Connect with Me
 
